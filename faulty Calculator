@@ -1,0 +1,45 @@
+#design a calculator which will correctly solve all the noramal calculation except  the following ones:         
+#56+9 = 77, 56/6 = 4, 45*3 = 555                                                                               
+                                                                                                               
+#Your program should take two numbers and operators as input from their user and then return the result         
+                                                                                  
+                                                                
+print("Enter first number")                                        
+num1=int(input())                                               
+                                                                
+print("Enter second number")                                       
+num2=int(input())                                               
+                                                                
+                                                                
+print("Choose the operator from these (+,-,/,*,**)")            
+num3 =input()                                                   
+                                                                
+                                                                
+if num1==56 and num2==9 and num3=="+":                          
+    print("77")                                                 
+                                                                
+elif(num1==56 and num2==6 and num3=="/"):                       
+    print("4")                                                  
+                                                                
+elif num1==45 and num2==3 and num3=="*":                        
+    print("555")                                                
+                                                                
+elif num3=="+":                                                 
+    print(num1+num2)                                            
+                                                                
+elif num3=="-":                                                 
+    print(num2-num1)                                            
+                                                                
+elif num3=="/":                                                 
+    print(num1/num2)                                            
+                                                                
+elif num3=="*":                                                 
+    print(num1*num2)                                            
+                                                                
+elif num3=="**":                                                
+    print(num1**num2)                                           
+                                                                
+                                                                
+else:                                                           
+    print("unexpected error")                                            
+                              
